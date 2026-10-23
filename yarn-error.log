@@ -1,0 +1,76 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\imrank\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js install
+
+PATH: 
+  C:\Users\imrank\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\imrank\bin;C:\Users\imrank\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\debugCommand;C:\Users\imrank\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\copilotCli;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\system32\Wbem;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\xampp\php;C:\xampp\php8360;C:\Program Files\Redis;C:\Python27;C:\Program Files\dotnet;C:\Program Files\Microsoft SQL Server\130\Tools\Binn;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn;C:\Program Files (x86)\Microsoft SQL Server\150\Tools\Binn;C:\Program Files\Microsoft SQL Server\150\Tools\Binn;C:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn;C:\Program Files\Microsoft SQL Server\150\DTS\Binn;C:\Program Files\Azure Data Studio\bin;C:\Program Files (x86)\Devart\EntityDeveloper\Console;C:\Program Files\Microsoft SQL Server Migration Assistant for MySQL\bin;C:\Program Files\Microsoft UI\bin;C:\Program Files\Amazon\AWSCLIV2;C:\Program Files\PuTTY;C:\Program Files (x86)\Print Conductor;C:\Program Files\Java\jdk-21\bin;C:\symfony;C:\Program Files\Git\cmd;C:\terraform;C:\Program Files\Oracle\VirtualBox;C:\Program Files\Multipass\bin;C:\Program Files\nodejs;C:\Program Files\Docker\Docker\resources\bin;C:\Users\imrank\.local\bin;C:\apache-maven-3.9.16\bin;C:\Program Files\Microsoft UI;C:\Program Files\WSL;C:\Users\imrank\.config\herd-lite\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\system32\Wbem;C:\oracle\instantclient_10_2;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\ProgramData\ComposerSetup\bin;C:\Program Files\Redis;C:\Program Files\dotnet;C:\Program Files\Microsoft SQL Server\130\Tools\Binn;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn;C:\Program Files (x86)\Microsoft SQL Server\150\Tools\Binn;C:\Program Files\Microsoft SQL Server\150\Tools\Binn;C:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn;C:\Program Files\Microsoft SQL Server\150\DTS\Binn;C:\Program Files\Azure Data Studio\bin;C:\Program Files (x86)\Devart\EntityDeveloper\Console;C:\Program Files\Microsoft SQL Server Migration Assistant for MySQL\bin;C:\flutter\bin;C:\Program Files\Microsoft UI\bin;C:\Program Files\Amazon\AWSCLIV2;C:\Program Files\PuTTY;C:\Program Files (x86)\Print Conductor;C:\Program Files\nodejs;C:\Program Files\Java\jdk-21\bin;C:\symfony;C:\Program Files\Git\cmd;C:\Program Files\Docker\Docker\resources\bin;C:\terraform;C:\ProgramData\DockerDesktop\version-bin;C:\Users\imrank\Anaconda3;C:\Users\imrank\Anaconda3\Library\mingw-w64\bin;C:\Users\imrank\Anaconda3\Library\usr\bin;C:\Users\imrank\Anaconda3\Library\bin;C:\Users\imrank\Anaconda3\Scripts;C:\Users\imrank\AppData\Local\Programs\Python\Python38\Scripts;C:\Users\imrank\AppData\Local\Programs\Python\Python38;C:\Users\imrank\AppData\Local\Microsoft\WindowsApps;C:\Users\imrank\AppData\Local\atom\bin;C:\Users\imrank\AppData\Local\GitHubDesktop\bin;C:\Users\imrank\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\imrank\AppData\Local\Programs\EmEditor;C:\Users\imrank\.dotnet\tools;C:\Users\imrank\AppData\Local\Turbo\Cmd;C:\Users\imrank\AppData\Local\Programs\Ollama;C:\Program Files\Multipass\bin;C:\Users\imrank\AppData\Roaming\npm;C:\Users\imrank\ox;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  24.16.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.npmjs.org/@mui/icons-material/-/icons-material-7.3.11.tgz: ESOCKETTIMEDOUT
+      at ClientRequest.<anonymous> (C:\Users\imrank\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141289:19)
+      at Object.onceWrapper (node:events:630:28)
+      at ClientRequest.emit (node:events:509:28)
+      at TLSSocket.emitRequestTimeout (node:_http_client:948:9)
+      at Object.onceWrapper (node:events:630:28)
+      at TLSSocket.emit (node:events:521:24)
+      at Socket._onTimeout (node:net:610:8)
+      at listOnTimeout (node:internal/timers:605:17)
+      at process.processTimers (node:internal/timers:541:7)
+
+npm manifest: 
+  {
+    "name": "task-management-frontend",
+    "private": true,
+    "version": "1.0.0",
+    "type": "module",
+    "engines": {
+      "node": ">=24.0.0"
+    },
+    "scripts": {
+      "dev": "vite --host 0.0.0.0 --port 3001",
+      "build": "tsc -b && vite build",
+      "preview": "vite preview --host 0.0.0.0 --port 3001",
+      "typecheck": "tsc -b --pretty",
+      "lint": "eslint ."
+    },
+    "dependencies": {
+      "@emotion/react": "^11.14.0",
+      "@emotion/styled": "^11.14.0",
+      "@mui/icons-material": "^7.3.5",
+      "@mui/material": "^7.3.5",
+      "@tanstack/react-query": "^5.90.2",
+      "axios": "^1.12.2",
+      "react": "^19.3.0",
+      "react-dom": "^19.3.0",
+      "react-router-dom": "^7.9.5"
+    },
+    "devDependencies": {
+      "@eslint/js": "^9.37.0",
+      "@types/node": "^24.7.2",
+      "@types/react": "^19.2.2",
+      "@types/react-dom": "^19.2.2",
+      "@vitejs/plugin-react": "^6.1.2",
+      "eslint": "^9.37.0",
+      "eslint-plugin-react-hooks": "^5.2.0",
+      "eslint-plugin-react-refresh": "^0.4.23",
+      "globals": "^16.4.0",
+      "sass-embedded": "^1.93.2",
+      "typescript": "^5.9.3",
+      "typescript-eslint": "^8.46.0",
+      "vite": "^8.3.0"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
